@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    margin-right: 200px;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    background: url(video/z3518697754354_55332bd490b5e419fcc34ee2d45520c1.jpg);
+    background-size: cover;
+}
+
+#video_background {
+    position: absolute;    
+    bottom: 0px;   
+    right: 0px; 
+    min-width: 100%; 
+    min-height: 100%;   
+    width: auto;  
+    height: auto;   
+    z-index: -100;  
+    overflow: hidden;
+    opacity: 80%;
+}
+
+.form-login {
+    background: url(video/z3518697754354_55332bd490b5e419fcc34ee2d45520c1.jpg);
+
+}
+
+h2 {
+    display: block;
+    width: 396px;
+    padding: 12px 15px;
+    border-radius: 3px;
+    line-height: 14px;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 55px;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+
+.account-login {
+    width: 200px;
+    height: 40px;
+    display: block;
+}
+
+.account-form {
+    display: block;
+    width: 363px;
+    padding: 12px 15px;
+    margin-bottom: 30px;
+    border: 1px solid #dad8d3;
+    border-radius: 3px;
+    line-height: 14px;
+    font-size: 12px;
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.password-form {
+    display: block;
+    width: 363px;
+    padding: 12px 15px;
+    border: 1px solid #dad8d3;
+    border-radius: 3px;
+    line-height: 14px;
+    font-size: 12px;
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-login {
+    display: block;
+    width: 396px;
+    padding: 12px 15px;
+    border: 1px solid #dad8d3;
+    border-radius: 3px;
+    line-height: 14px;
+    font-size: 12px;
+    background-color: #ff3f3f;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-login:hover {
+    opacity: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.button-sign {
+    display: block;
+    width: 396px;
+    padding: 12px 15px;
+    border: 1px solid #dad8d3;
+    border-radius: 3px;
+    line-height: 14px;
+    font-size: 12px;
+    background-color: #b6b6b6;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-sign:hover {
+    opacity: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.gender {
+    display: flex;
+    padding: 15px 0;
+    margin: 0 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.day {
+    display: flex;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.age-day {
+    display: inline-flex;
+}
+
+.age {
+    background-color: #fff;
+    width: 190px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login {
+    text-align: center;
+    margin-top: 30px;
+}
